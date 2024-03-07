@@ -1,0 +1,7 @@
+.section{
+    animation: step-end;
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section {
+  background-image: url("./image/big.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid red;
+}
+#section-2 {
+  background-image: url("./image/folder-img.jpeg");
+}
+
+#section-4 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(103, 121, 9, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.text {
+  color: aliceblue;
+  font-size: 50px;
+}
